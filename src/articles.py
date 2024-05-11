@@ -19,7 +19,12 @@ with open('./data.json', 'r') as f:
     data = json.load(f)
 
 for item in data:
+    # Check if the video has already been processed
+    if item.get('processed', False):
+        continue
+
     item['article'] = generate_article_ollama(transcript=item['transcript'])
+    item['processed'] = True
 
 with open('./data.json', 'w') as f:
     json.dump(data, f)

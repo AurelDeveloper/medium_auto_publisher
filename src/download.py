@@ -17,12 +17,15 @@ except FileNotFoundError:
     data = []
 
 for url in playlist.video_urls:
-    # Check if the URL is already in the data
-    if any(item['url'] == url for item in data):
-        continue
-
     loader = YoutubeLoader.from_youtube_url(url, add_video_info=True)
     docs = loader.load()
+
+    # Extract the source from the metadata
+    source = docs[0].metadata.get('source')
+
+    # Check if the source is already in the data
+    if any(item['metadata'].get('source') == source for item in data):
+        continue
 
     # Append the data to the list
     data.append({
