@@ -1,0 +1,7 @@
+subprocess
+requests
+dotenv-python
+pytube
+langchain_community
+langchain
+youtube-transcript-api
