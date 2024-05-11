@@ -1,6 +1,6 @@
 # medium_auto_publisher
 
-**Exemple generated article:** https://medium.com/@aurel.code/why-unreal-engine-5-4-is-a-game-changer-1682d66e8763
+**Example generated article:** https://medium.com/@aurel.code/why-unreal-engine-5-4-is-a-game-changer-1682d66e8763
 
 This project converts YouTube videos into articles. It consists of three main scripts that are executed in the `main.py` file:
 
