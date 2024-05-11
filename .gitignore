@@ -1,0 +1,10 @@
+# .gitignore
+
+# Virtualenv
+venv
+
+# Environment variables
+.env
+
+# JSON storage
+data.json
