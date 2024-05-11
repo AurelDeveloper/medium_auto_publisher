@@ -1,4 +1,4 @@
-# Project: medium_auto_publisher
+# medium_auto_publisher
 
 This project converts YouTube videos into articles. It consists of three main scripts that are executed in the `main.py` file:
 
