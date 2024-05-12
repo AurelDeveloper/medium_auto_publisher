@@ -5,7 +5,7 @@ import os
 subprocess.run(["python3", "./src/download.py"])
 
 # Run generate_articles.py
-subprocess.run(["python3", "./src/articles.py"])
+subprocess.run(["python3", "./src/generator.py"])
 
 # Run upload_articles.py
-subprocess.run(["python3", "./src/upload.py"])
+subprocess.run(["python3", "./src/publish.py"])
