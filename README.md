@@ -2,14 +2,6 @@
 
 **Example generated article:** https://medium.com/@aurel.code/why-unreal-engine-5-4-is-a-game-changer-1682d66e8763
 
-This project converts YouTube videos into articles. It consists of three main scripts that are executed in the `main.py` file:
-
-1. `download.py`: This script is responsible for downloading the YouTube videos. It uses the YouTube Data API to download the videos and extract the transcripts.
-
-2. `articles.py`: This script generates articles and short descriptions from the downloaded YouTube transcripts. It uses Ollama with llama3 to generate the articles.
-
-3. `upload.py`: This script uploads the generated articles to Medium. It uses the Medium API to publish the articles.
-
 ## Setup
 
 To set up the project, follow these steps:
