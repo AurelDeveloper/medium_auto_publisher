@@ -1,6 +1,14 @@
 # medium_auto_publisher
 
-**Example generated article:** https://medium.com/@aurel.code/why-unreal-engine-5-4-is-a-game-changer-1682d66e8763
+**Example generated article:** https://medium.com/@aurel_code/why-everyone-hates-php-and-why-you-should-too-b7d9db21e9c9
+
+The `main.py` is set to download the transcript from a specific YouTube video URL. To use a different video, change the `video_url` variable to your desired YouTube video URL.
+
+## Functions
+
+- `download_video()`: Downloads the YouTube video transcript and stores it in the `data` list.
+- `generate_content()`: Generates an article from the video transcript using the LangChain API.
+- `publish_content()`: Publishes the generated article on Medium.
 
 ## Setup
 
