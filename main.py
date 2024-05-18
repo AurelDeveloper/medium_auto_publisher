@@ -7,7 +7,7 @@ from langchain.chat_models import ChatOllama
 
 load_dotenv()
 
-video_url = "https://www.youtube.com/watch?v=ATnpEOo3GJA&ab_channel=LinusTechTips"
+video_url = "https://www.youtube.com/watch?v=ZQX4FLrm9ac&ab_channel=EricMurphy"
 article_prompt = os.getenv('PROMPT')
 token = os.getenv('TOKEN')
 
